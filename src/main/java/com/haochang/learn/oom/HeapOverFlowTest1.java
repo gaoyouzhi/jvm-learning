@@ -14,7 +14,9 @@ public class HeapOverFlowTest1 {
     int[] intArr = new int[10];
 
     /**
-     * 参数设置 -Xms10m -Xmx10m
+     * 参数设置
+     * -Xms10m -Xmx10m
+     * -XX:HeapDumpOnOutOfMemoryError
      */
     public static void main(String[] args) {
         List<HeapOverFlowTest1> objs = new ArrayList<>();
