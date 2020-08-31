@@ -1,9 +1,6 @@
 package com.haochang.learn.test;
 
-import com.haochang.learn.model.ArrayObj;
-import com.haochang.learn.model.EmptyObj;
-import com.haochang.learn.model.StringObj;
-import com.haochang.learn.model.TypeObj;
+import com.haochang.learn.model.*;
 import org.openjdk.jol.info.ClassLayout;
 
 /**
@@ -32,6 +29,8 @@ public class TestCompressed {
         String str = new String("string");
         System.out.println(ClassLayout.parseInstance(str).toPrintable());
 
+        Company company = new Company();
+        System.out.println(ClassLayout.parseInstance(company).toPrintable());
 
     }
 }
