@@ -7,7 +7,7 @@ import org.springframework.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * @description: 描述：原空间溢出
+ * @description: 描述：元空间溢出
  * @author: youzhi.gao
  * @date: 2020-08-24 18:14
  */

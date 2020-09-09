@@ -8,7 +8,11 @@ public class StackOverFlowTest1 {
     public static void test() {
         double a = 0.0;
         double b = 1.0;
-
+        try {
+            Thread.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         test();
     }
 

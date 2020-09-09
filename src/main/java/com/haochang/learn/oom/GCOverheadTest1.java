@@ -25,6 +25,11 @@ public class GCOverheadTest1 {
         Integer val = 0;
 
         for (;;) {
+            try {
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             list.add((val++).toString());
         }
     }
