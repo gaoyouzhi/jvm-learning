@@ -20,7 +20,7 @@ public class MetaSpaceOverFlowTest {
     public static void main(String[] args) {
         while (true) {
             try {
-                Thread.sleep(10);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

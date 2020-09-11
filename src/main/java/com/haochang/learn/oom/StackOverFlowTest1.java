@@ -9,7 +9,7 @@ public class StackOverFlowTest1 {
         double a = 0.0;
         double b = 1.0;
         try {
-            Thread.sleep(1);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

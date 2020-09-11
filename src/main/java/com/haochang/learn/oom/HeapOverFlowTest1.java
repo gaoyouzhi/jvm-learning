@@ -23,12 +23,13 @@ public class HeapOverFlowTest1 {
 
         for (;;) {
             try {
-                Thread.sleep(1);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
 
             objs.add(new HeapOverFlowTest1());
+            System.out.println("running......");
         }
     }
 }
